@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  reactStrictMode: true,
+  output: 'export', // Añadimos esta línea
   images: {
-    unoptimized: true
-  }
+    unoptimized: true, // Y esta línea
+    domains: ['localhost'],
+  },
 }
 
 module.exports = nextConfig
