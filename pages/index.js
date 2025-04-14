@@ -6,7 +6,7 @@ export default function Home() {
           {/* Logo */}
           <div className="w-64 h-64 relative mb-8">
             <img
-              src="/images/logo.png"
+              src="./images/logo.png" // Actualizamos la ruta
               alt="KPI Football Logo"
               className="w-full h-full object-contain"
             />
